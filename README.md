@@ -59,7 +59,7 @@ A repository for my SmartThings groovy scripts.
 
 ## To Call the SmartApp Installation Endpoint
 1. Append one of the patterns that the SmartApp handles to the end of the **Installation URL**. For example to get a list of all the `temperature` devices append `/temperatures` to the **Installation URL**.
-2. Now navigate to this URL, substituting in the **Installation URL** and **Access Token**: `https://graph.api.smartthings.com<Navigation URL>/temperatures?access_token=<Access Token>`
+2. Now navigate to this URL, substituting in the **Installation URL** and **Access Token**: `https://graph.api.smartthings.com<Installation URL>/temperatures?access_token=<Access Token>`
 3. You should get a response that looks like:
 	````JSON	
 	[
