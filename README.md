@@ -22,7 +22,7 @@ A repository for my SmartThings groovy scripts.
 6. Click the **Update** button to save the changes.
 
 ## To Authenticate
-> Thanks to Joshua Lyon I now know that it is necessary to open an Incognito Chrome Tab for the browser mentioned in the steps below due to a session cookie biendg sent and preventing the authentication from working properly.
+> IMPORTANT: Thanks to Joshua Lyon I now know that it is necessary to open an Incognito Chrome Tab for the browser mentioned in the steps below due to a session cookie being sent and preventing the authentication from working properly.
 See https://community.smartthings.com/t/oauth-flow-changed/19077/2
 
 1. Navigate to this URL into your browser, substituting in the **Client Id**: `https://graph.api.smartthings.com/oauth/authorize?response_type=code&client_id=<Client Id>&scope=app&redirect_uri=https%3A%2F%2Fgraph.api.smartthings.com%2Foauth%2Fcallback`
