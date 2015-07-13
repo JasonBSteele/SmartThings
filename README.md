@@ -23,7 +23,8 @@ A repository for my SmartThings groovy scripts.
 
 ## To Authenticate
 > Thanks to Joshua Lyon I now know that it is necessary to open an Incognito Chrome Tab for the browser mentioned in the steps below due to a session cookie biendg sent and preventing the authentication from working properly.
->See https://community.smartthings.com/t/oauth-flow-changed/19077/2
+See https://community.smartthings.com/t/oauth-flow-changed/19077/2
+
 1. Navigate to this URL into your browser, substituting in the **Client Id**: `https://graph.api.smartthings.com/oauth/authorize?response_type=code&client_id=<Client Id>&scope=app&redirect_uri=https%3A%2F%2Fgraph.api.smartthings.com%2Foauth%2Fcallback`
 2. If you are prompted to login to SmartThings, go ahead.
 3. Select you location from the drop down list and the devices you want to have access to through the REST API
